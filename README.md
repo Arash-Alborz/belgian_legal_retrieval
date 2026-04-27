@@ -114,7 +114,9 @@ requirements.txt          # Dependencies
 
 Clone the repository and install dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
@@ -122,7 +124,9 @@ pip install -r requirements.txt
 
 ### 1. Build FAISS index
 
+```bash
 python build_index.py
+```
 
 This will create:
 
@@ -135,15 +139,21 @@ This will create:
 
 #### Basic retrieval:
 
+```bash
 python search.py
+```
 
 #### Retrieval + reranking:
 
+```bash
 python rerank_search.py
+```
 
 #### Multilingual search:
 
+```bash
 python multilingual_search.py
+```
 
 ---
 
