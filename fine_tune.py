@@ -1,3 +1,7 @@
+# Fine-tunes a SentenceTransformer model on the bBSARD dataset for semantic legal retrieval. The model is trained on question–article pairs
+# using MultipleNegativesRankingLoss and evaluated with an InformationRetrievalEvaluator. 
+# The trained model is saved locally for downstream retrieval and indexing.
+
 import random
 from datasets import load_dataset
 from torch.utils.data import DataLoader
@@ -74,7 +78,7 @@ def build_evaluator(train_full, dev_idx, corpus_ids, corpus_texts):
 def main():
     # config
     model_name = "sentence-transformers/all-MiniLM-L6-v2"
-    output_path = "models/minilm_finetuned"
+    output_path = "models/minilm-dutch-legal-retrieval"
     batch_size = 22
     epochs = 10
 
