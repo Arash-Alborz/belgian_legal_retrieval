@@ -46,6 +46,8 @@ A cross-encoder model, [cross-encoder/ms-marco-MiniLM-L-6-v2](https://huggingfac
 - **Fine-tuning was done by contrastive loss for the training and cosine similarity for validation set.**
 
 - Evaluated with InformationRetrievalEvaluator
+  
+```markdown
 | Metric                | Value  |
 |----------------------|--------|
 | cosine_accuracy@1    | 0.2416 |
@@ -69,7 +71,8 @@ A cross-encoder model, [cross-encoder/ms-marco-MiniLM-L-6-v2](https://huggingfac
 - **Retrieval evaluation**
 - Followingis the evaluation of the retrieval with the final fine-tuned model.
 
-- | Metric    | Value  |
+```markdown
+| Metric    | Value  |
 |-----------|--------|
 | R@100     | 0.5859 |
 | R@200     | 0.6425 |
