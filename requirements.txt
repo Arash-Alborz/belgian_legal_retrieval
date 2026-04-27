@@ -1,0 +1,7 @@
+sentence-transformers
+transformers
+datasets
+faiss-cpu
+langdetect
+torch
+numpy
