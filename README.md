@@ -71,7 +71,6 @@ A cross-encoder model, [cross-encoder/ms-marco-MiniLM-L-6-v2](https://huggingfac
 - **Retrieval evaluation**
 - Followingis the evaluation of the retrieval with the final fine-tuned model.
 
-```markdown
 | Metric    | Value  |
 |-----------|--------|
 | R@100     | 0.5859 |
